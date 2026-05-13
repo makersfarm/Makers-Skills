@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "repository": "https://github.com/makersfarm/Makers-Skills",
+  "branch": "main",
+  "updated": "2026-05-14",
+  "skills": [
+    {
+      "name": "multi-agent-maintainability-review",
+      "path": "skills/multi-agent-maintainability-review",
+      "status": "active",
+      "category": "code-quality",
+      "version": "1.0.0",
+      "updated": "2026-05-14",
+      "description": "Run a scoped, read-only maintainability review using multiple subagents, consolidating findings into actionable recommendations.",
+      "bestFor": [
+        "Scoped codebase maintainability reviews",
+        "Architecture, framework, testing, documentation, and operations assessments",
+        "Multi-agent exploration and reviewer synthesis"
+      ],
+      "effect": "Guides Codex through a bounded review workflow that dispatches explorer and reviewer agents, deduplicates findings, and produces a prioritized maintainability report.",
+      "tags": [
+        "maintainability",
+        "code-review",
+        "multi-agent",
+        "architecture",
+        "documentation",
+        "testing"
+      ],
+      "files": [
+        "skills/multi-agent-maintainability-review/SKILL.md",
+        "skills/multi-agent-maintainability-review/agents/openai.yaml"
+      ],
+      "related": [
+        "ui-ux-pro-max"
+      ],
+      "sourceUrl": "https://github.com/makersfarm/Makers-Skills/tree/main/skills/multi-agent-maintainability-review",
+      "rawSkillUrl": "https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/multi-agent-maintainability-review/SKILL.md"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": "skills/ui-ux-pro-max",
+      "status": "active",
+      "category": "design",
+      "version": "1.0.0",
+      "updated": "2026-05-14",
+      "description": "UI/UX design intelligence for web and mobile, covering design systems, accessibility, layout, typography, color, animation, product patterns, and chart choices.",
+      "bestFor": [
+        "Designing or improving web and mobile interfaces",
+        "Reviewing UI code for usability, accessibility, and visual consistency",
+        "Choosing product-appropriate layouts, styles, color systems, typography, and interaction patterns"
+      ],
+      "effect": "Gives Codex a structured UI/UX decision framework with prioritized rules for accessibility, interaction, performance, layout, style, forms, navigation, and data visualization.",
+      "tags": [
+        "ui",
+        "ux",
+        "design-system",
+        "accessibility",
+        "responsive-design",
+        "typography",
+        "color",
+        "charts"
+      ],
+      "files": [
+        "skills/ui-ux-pro-max/SKILL.md",
+        "skills/ui-ux-pro-max/data",
+        "skills/ui-ux-pro-max/scripts"
+      ],
+      "related": [
+        "multi-agent-maintainability-review"
+      ],
+      "sourceUrl": "https://github.com/makersfarm/Makers-Skills/tree/main/skills/ui-ux-pro-max",
+      "rawSkillUrl": "https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/ui-ux-pro-max/SKILL.md"
+    }
+  ]
+}

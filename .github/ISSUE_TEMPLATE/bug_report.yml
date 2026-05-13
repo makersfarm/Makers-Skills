@@ -1,0 +1,75 @@
+name: Bug report
+description: Report a reproducible problem with a Makers skill.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      description: Name or path of the affected skill.
+      placeholder: "skills/ui-ux-pro-max"
+    validations:
+      required: true
+  - type: input
+    id: install-target
+    attributes:
+      label: Install target
+      description: Where and how the skill is installed or used.
+      placeholder: "Codex skill directory, plugin bundle, or local repo path"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Codex/client version if known, shell, model/plugin context, and relevant runtime versions.
+      placeholder: |
+        OS:
+        Client:
+        Shell:
+        Runtime versions:
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Provide the shortest reliable steps to reproduce the issue.
+      placeholder: |
+        1. Install or open ...
+        2. Run or ask ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove API keys, tokens, private URLs, personal data, and proprietary content before posting.
+      placeholder: "Paste sanitized logs, screenshots, or command output here."
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: source-check
+    attributes:
+      label: Source check
+      options:
+        - label: I checked the relevant skill source or documentation before filing this issue.
+          required: true

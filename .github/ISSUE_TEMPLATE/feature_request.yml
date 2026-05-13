@@ -1,0 +1,78 @@
+name: Feature request
+description: Suggest a new capability or improvement for a Makers skill.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      description: Name or path of the skill this request affects.
+      placeholder: "skills/ui-ux-pro-max"
+    validations:
+      required: true
+  - type: input
+    id: install-target
+    attributes:
+      label: Install target
+      description: Where this feature should work.
+      placeholder: "Codex skill directory, plugin bundle, or local repo path"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Codex/client version if known, shell, model/plugin context, and relevant runtime versions.
+      placeholder: |
+        OS:
+        Client:
+        Shell:
+        Runtime versions:
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What workflow is blocked or unnecessarily difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the skill do after this change?
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior or workaround
+      description: What happens today, and how are you working around it?
+    validations:
+      required: false
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the requested change, source links, examples, or API shape.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Supporting logs or screenshots
+      description: Remove API keys, tokens, private URLs, personal data, and proprietary content before posting.
+      placeholder: "Paste sanitized examples, logs, screenshots, or command output here."
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: source-check
+    attributes:
+      label: Source check
+      options:
+        - label: I checked the relevant skill source or documentation before filing this request.
+          required: true

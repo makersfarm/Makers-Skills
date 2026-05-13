@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Source
+    url: https://github.com/makersfarm/Makers-Skills/tree/main/skills
+    about: Browse skill source files before opening an issue.
+  - name: Support guide
+    url: https://github.com/makersfarm/Makers-Skills/blob/main/SUPPORT.md
+    about: Review where to report bugs, request features, and sanitize logs.
