@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintainability Review"
+  short_description: "Run scoped multi-agent maintainability reviews."
+  default_prompt: "Review this scoped project area for maintainability using the multi-agent review workflow."
