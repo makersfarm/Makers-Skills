@@ -4,6 +4,13 @@ All notable changes to this repository will be documented here.
 
 Release notes will focus on shipped skill behavior, installation or documentation changes, compatibility notes, and maintenance-relevant updates. Entries should avoid synthetic ratings or unverifiable quality claims; trust signals should come from dated history, clear scope, and accurate maintenance notes.
 
+## 2026-11-06
+
+### Added
+
+- Added `executive-status-brief` with its original Korean reporting instructions and Codex display metadata.
+- Registered the skill in the machine-readable catalog, root README, and discovery documentation, with installation and usage guidance.
+
 ## 2026-05-14
 
 ### Added

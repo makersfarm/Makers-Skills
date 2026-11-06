@@ -1,10 +1,10 @@
 # Makers Skills
 
 [![Last commit](https://img.shields.io/github/last-commit/makersfarm/Makers-Skills?label=updated)](https://github.com/makersfarm/Makers-Skills/commits/main)
-[![Skills](https://img.shields.io/badge/skills-2-blue)](#skills)
+[![Skills](https://img.shields.io/badge/skills-3-blue)](#skills)
 [![Agent install](https://img.shields.io/badge/agent%20install-llms.install.md-green)](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/llms.install.md)
 
-Makersfarm Codex custom skills for reusable agent workflows, reviews, and product design work.
+Makersfarm Codex custom skills for reusable agent workflows, reviews, executive reporting, and product design work.
 
 ## Quick Links
 
@@ -24,6 +24,7 @@ Makersfarm Codex custom skills for reusable agent workflows, reviews, and produc
 
 | Skill | Best for | Effect | Files |
 | --- | --- | --- | --- |
+| `executive-status-brief` | Concise Korean executive status reports | Summarizes progress, decisions and trade-offs, and context within 1,300 characters by default, without inventing approval requests or claiming unverified success. | [SKILL.md](skills/executive-status-brief/SKILL.md) · [raw](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/executive-status-brief/SKILL.md) · [source](skills/executive-status-brief/) |
 | `multi-agent-maintainability-review` | Scoped codebase maintainability reviews | Coordinates exploration and review agents, consolidates concrete actions, and preserves dissenting opinions in a final report. | [SKILL.md](skills/multi-agent-maintainability-review/SKILL.md) · [raw](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/multi-agent-maintainability-review/SKILL.md) · [source](skills/multi-agent-maintainability-review/) |
 | `ui-ux-pro-max` | Web and mobile UI/UX planning, implementation, and review | Applies structured UX, accessibility, layout, typography, color, style, and chart guidance across common product surfaces. | [SKILL.md](skills/ui-ux-pro-max/SKILL.md) · [raw](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/ui-ux-pro-max/SKILL.md) · [source](skills/ui-ux-pro-max/) |
 
@@ -73,6 +74,11 @@ Read and follow https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/
 │   └── validate-skills.py
 ├── skills.json
 └── skills/
+    ├── executive-status-brief/
+    │   ├── agents/
+    │   │   └── openai.yaml
+    │   ├── README.md
+    │   └── SKILL.md
     ├── multi-agent-maintainability-review/
     │   ├── agents/
     │   │   └── openai.yaml

@@ -2,8 +2,36 @@
   "schemaVersion": "1.0.0",
   "repository": "https://github.com/makersfarm/Makers-Skills",
   "branch": "main",
-  "updated": "2026-05-14",
+  "updated": "2026-11-06",
   "skills": [
+    {
+      "name": "executive-status-brief",
+      "path": "skills/executive-status-brief",
+      "status": "active",
+      "category": "reporting",
+      "version": "1.0.0",
+      "updated": "2026-11-06",
+      "description": "업무 진행을 임원 보고 수준의 한국어로 요약한다. 경영진 대상 진행 보고 또는 진행상황·결정과 trade-off·필요한 맥락을 전체 1300자 이내로 정리해 달라는 요청에 사용한다.",
+      "bestFor": [
+        "Korean executive status updates",
+        "Summarizing verified progress, decisions and trade-offs, and context",
+        "Concise reports within 1,300 characters by default"
+      ],
+      "effect": "Produces a three-section Korean report that distinguishes verified outcomes from plans, requests only necessary decisions, and states relevant context without implying execution approval.",
+      "tags": [
+        "executive-reporting",
+        "status-update",
+        "decision-making",
+        "korean"
+      ],
+      "files": [
+        "skills/executive-status-brief/SKILL.md",
+        "skills/executive-status-brief/agents/openai.yaml"
+      ],
+      "related": [],
+      "sourceUrl": "https://github.com/makersfarm/Makers-Skills/tree/main/skills/executive-status-brief",
+      "rawSkillUrl": "https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/executive-status-brief/SKILL.md"
+    },
     {
       "name": "multi-agent-maintainability-review",
       "path": "skills/multi-agent-maintainability-review",

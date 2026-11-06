@@ -1,0 +1,4 @@
+interface:
+  display_name: "임원 보고"
+  short_description: "진행상황·결정과 trade-off·필요한 맥락을 1300자 이내로 보고"
+  default_prompt: "$executive-status-brief를 사용해 현재 업무를 진행상황 / 내가 결정해야할 것 및 trade-off / 맥락을 알려줘야할 것 순서로 전체 1300자 이내로 보고해줘."

@@ -12,6 +12,7 @@ Public catalog for the skills in this repository. `SKILL.md` remains the canonic
 
 | Skill | Best for | Category | Tags | SKILL.md | Raw |
 | --- | --- | --- | --- | --- | --- |
+| [`executive-status-brief`](../skills/executive-status-brief/SKILL.md) | Korean executive updates covering progress, necessary decisions and trade-offs, and context within 1,300 characters by default. | Reporting | `executive-reporting`, `status-update`, `decision-making`, `korean` | [Preview](../skills/executive-status-brief/SKILL.md) | [Raw](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/executive-status-brief/SKILL.md) |
 | [`multi-agent-maintainability-review`](../skills/multi-agent-maintainability-review/SKILL.md) | Scoped maintainability reviews using multiple subagents, consolidated recommendations, and pragmatic review synthesis. | Code review | `maintainability`, `subagents`, `review`, `documentation` | [Preview](../skills/multi-agent-maintainability-review/SKILL.md) | [Raw](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/multi-agent-maintainability-review/SKILL.md) |
 | [`ui-ux-pro-max`](../skills/ui-ux-pro-max/SKILL.md) | UI/UX planning, design critique, layout, accessibility, typography, color, and component guidance for web and mobile. | Design | `ui`, `ux`, `accessibility`, `design-system` | [Preview](../skills/ui-ux-pro-max/SKILL.md) | [Raw](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/ui-ux-pro-max/SKILL.md) |
 
@@ -19,6 +20,11 @@ Public catalog for the skills in this repository. `SKILL.md` remains the canonic
 
 ```text
 skills/
+  executive-status-brief/
+    README.md
+    SKILL.md  # Korean executive reporting instructions
+    agents/
+      openai.yaml
   multi-agent-maintainability-review/
     README.md
     SKILL.md  # Runtime instructions and review workflow
@@ -32,6 +38,12 @@ skills/
 ```
 
 ## SKILL.md Previews
+
+### executive-status-brief
+
+Writes Korean reports in the order 진행상황, 내가 결정해야할 것 및 trade-off, and 맥락을 알려줘야할 것. The default limit is 1,300 characters for the entire response. Verified progress is kept separate from plans or unverified outcomes, and no unnecessary decision or approval step is invented.
+
+Links: [GitHub preview](../skills/executive-status-brief/SKILL.md) | [Raw](https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/executive-status-brief/SKILL.md)
 
 ### multi-agent-maintainability-review
 
