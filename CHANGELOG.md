@@ -4,6 +4,13 @@ All notable changes to this repository will be documented here.
 
 Release notes will focus on shipped skill behavior, installation or documentation changes, compatibility notes, and maintenance-relevant updates. Entries should avoid synthetic ratings or unverifiable quality claims; trust signals should come from dated history, clear scope, and accurate maintenance notes.
 
+## 2026-11-11
+
+### Added
+
+- Added `explain-plainly`, which reframes technical or data-based explanations in business and UI terms for non-developer stakeholders and produces copy-ready questions to confirm with clients, operators, or vendors.
+- Registered the skill in the machine-readable catalog (`skills.json`), the root README skills table and file tree, and the discovery catalog (`docs/skill-catalog.md`).
+
 ## 2026-11-06
 
 ### Added
