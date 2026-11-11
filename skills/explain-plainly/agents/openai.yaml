@@ -1,0 +1,4 @@
+interface:
+  display_name: "쉽게 풀어 설명"
+  short_description: "기술/데이터 근거 설명을 업무·UI 용어로 재구성하고, 현업·고객사에 그대로 보낼 질문 문구까지 만든다"
+  default_prompt: "$explain-plainly 방금 설명을 비개발 현업이 이해할 수 있게 업무·화면 용어로 다시 풀어주고, 고객사에 그대로 보낼 확인 질문 문구도 만들어줘."

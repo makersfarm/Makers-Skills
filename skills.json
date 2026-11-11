@@ -2,8 +2,38 @@
   "schemaVersion": "1.0.0",
   "repository": "https://github.com/makersfarm/Makers-Skills",
   "branch": "main",
-  "updated": "2026-11-06",
+  "updated": "2026-11-11",
   "skills": [
+    {
+      "name": "explain-plainly",
+      "path": "skills/explain-plainly",
+      "status": "active",
+      "category": "communication",
+      "version": "1.0.0",
+      "updated": "2026-11-11",
+      "description": "방금 데이터/기술 근거로 설명했는데 사용자가 \"무슨 말인지 모르겠다 / 이게 뭐냐 / 쉽게 / 정확히 뭘 묻는 거냐\"라고 되물을 때, 같은 내용을 실제 비즈니스·UI 용어로 재구성해 이해하기 쉽게 다시 설명한다. 특히 그 설명을 고객사·현업·벤더에게 전달해 확인받아야 할 때(전달용 질문 문구가 필요할 때) 쓴다.",
+      "bestFor": [
+        "Reframing technical or data-based explanations in business and UI terms",
+        "Helping non-developer stakeholders understand without dropping information",
+        "Producing copy-ready questions to confirm with clients, operators, or vendors"
+      ],
+      "effect": "Keeps the facts intact while changing only the level of abstraction: anchors each point to the system, screen label, or workflow the reader actually uses, and when needed supplies a quote-ready confirmation question, flagging sample or unverified data instead of promoting it to certainty.",
+      "tags": [
+        "plain-language",
+        "stakeholder-communication",
+        "requirements",
+        "korean"
+      ],
+      "files": [
+        "skills/explain-plainly/SKILL.md",
+        "skills/explain-plainly/agents/openai.yaml"
+      ],
+      "related": [
+        "executive-status-brief"
+      ],
+      "sourceUrl": "https://github.com/makersfarm/Makers-Skills/tree/main/skills/explain-plainly",
+      "rawSkillUrl": "https://raw.githubusercontent.com/makersfarm/Makers-Skills/main/skills/explain-plainly/SKILL.md"
+    },
     {
       "name": "executive-status-brief",
       "path": "skills/executive-status-brief",
